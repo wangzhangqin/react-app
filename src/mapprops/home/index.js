@@ -1,7 +1,9 @@
-import {TabAction} from "../../actions/actionCreator"
+import {TabAction,NewPhoneAction} from "../../actions/actionCreator"
 
 export const mapStateToProps = (state)=>({
-    tabArr : state.getIn(["home","Tab"])
+    tabArr : state.getIn(["home","Tab"]),
+    newArr : state.getIn(["newphone","data"])
+
 })
 
 export const mapDispatchToProps = (dispatch)=>({
@@ -10,5 +12,8 @@ export const mapDispatchToProps = (dispatch)=>({
     },
     getHomeTab(){
         dispatch(TabAction())
+    },
+    getNewphone(){
+        dispatch(NewPhoneAction()); 
     }
 })

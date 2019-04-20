@@ -1,12 +1,10 @@
 import Home from "./home";
-import Cinema from "./cinema";
-import Eticket from "./eticket";
+import Newphone from "./newphone";
 import Mine from "./mine";
 
 
 export {
     Home,
-    Cinema,
-    Eticket,
+    Newphone,
     Mine
 }

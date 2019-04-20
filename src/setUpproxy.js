@@ -7,3 +7,4 @@ module.exports = (app)=>{
     }))
 }
 //https://m.aihuishou.com/portal-api/home-tab?cityid=31&latitude=&longitude=
+//https://m.aihuishou.com/portal-api/ofnew/home?cityId=31&longitude=&latitude=&inquiryKey=6565941809851836351&productId=

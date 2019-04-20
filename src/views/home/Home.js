@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div>
         <Header>
-          <a className="city">北京市</a>
+          <a className="city" >北京市</a>
           <a className="search">
           <Icon type="search" size="xxs"/>
           </a>
